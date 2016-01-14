@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B97DD471C4827C900D8DC47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97DD3D1C4827C900D8DC47 /* AppDelegate.swift */; };
+		9B97DD481C4827C900D8DC47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B97DD3E1C4827C900D8DC47 /* Assets.xcassets */; };
+		9B97DD491C4827C900D8DC47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B97DD3F1C4827C900D8DC47 /* Main.storyboard */; };
+		9B97DD4A1C4827C900D8DC47 /* Ghostie.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9B97DD411C4827C900D8DC47 /* Ghostie.icns */; };
+		9B97DD4B1C4827C900D8DC47 /* GhostieDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97DD421C4827C900D8DC47 /* GhostieDocument.swift */; };
+		9B97DD4C1C4827C900D8DC47 /* GhostieImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97DD431C4827C900D8DC47 /* GhostieImageView.swift */; };
+		9B97DD4D1C4827C900D8DC47 /* GhostieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97DD441C4827C900D8DC47 /* GhostieViewController.swift */; };
+		9B97DD4E1C4827C900D8DC47 /* GhostieWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97DD451C4827C900D8DC47 /* GhostieWindow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B97DD3D1C4827C900D8DC47 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B97DD3E1C4827C900D8DC47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B97DD401C4827C900D8DC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B97DD411C4827C900D8DC47 /* Ghostie.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Ghostie.icns; sourceTree = "<group>"; };
+		9B97DD421C4827C900D8DC47 /* GhostieDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GhostieDocument.swift; sourceTree = "<group>"; };
+		9B97DD431C4827C900D8DC47 /* GhostieImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GhostieImageView.swift; sourceTree = "<group>"; };
+		9B97DD441C4827C900D8DC47 /* GhostieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GhostieViewController.swift; sourceTree = "<group>"; };
+		9B97DD451C4827C900D8DC47 /* GhostieWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GhostieWindow.swift; sourceTree = "<group>"; };
+		9B97DD461C4827C900D8DC47 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF73BD91C46D8DB0045B2BF /* Ghostie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ghostie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BF73BD61C46D8DB0045B2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B97DD3C1C4827C900D8DC47 /* Ghostie */ = {
+			isa = PBXGroup;
+			children = (
+				9B97DD3D1C4827C900D8DC47 /* AppDelegate.swift */,
+				9B97DD3E1C4827C900D8DC47 /* Assets.xcassets */,
+				9B97DD3F1C4827C900D8DC47 /* Main.storyboard */,
+				9B97DD411C4827C900D8DC47 /* Ghostie.icns */,
+				9B97DD421C4827C900D8DC47 /* GhostieDocument.swift */,
+				9B97DD431C4827C900D8DC47 /* GhostieImageView.swift */,
+				9B97DD441C4827C900D8DC47 /* GhostieViewController.swift */,
+				9B97DD451C4827C900D8DC47 /* GhostieWindow.swift */,
+				9B97DD461C4827C900D8DC47 /* Info.plist */,
+			);
+			name = Ghostie;
+			path = Ghostie;
+			sourceTree = "<group>";
+		};
+		9BF73BD01C46D8DB0045B2BF = {
+			isa = PBXGroup;
+			children = (
+				9B97DD3C1C4827C900D8DC47 /* Ghostie */,
+				9BF73BDA1C46D8DB0045B2BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BF73BDA1C46D8DB0045B2BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BF73BD91C46D8DB0045B2BF /* Ghostie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BF73BD81C46D8DB0045B2BF /* Ghostie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF73BEA1C46D8DB0045B2BF /* Build configuration list for PBXNativeTarget "Ghostie" */;
+			buildPhases = (
+				9BF73BD51C46D8DB0045B2BF /* Sources */,
+				9BF73BD61C46D8DB0045B2BF /* Frameworks */,
+				9BF73BD71C46D8DB0045B2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ghostie;
+			productName = Ghostie;
+			productReference = 9BF73BD91C46D8DB0045B2BF /* Ghostie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BF73BD11C46D8DB0045B2BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SoftwareDad;
+				TargetAttributes = {
+					9BF73BD81C46D8DB0045B2BF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BJTCCZH637;
+					};
+				};
+			};
+			buildConfigurationList = 9BF73BD41C46D8DB0045B2BF /* Build configuration list for PBXProject "Ghostie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BF73BD01C46D8DB0045B2BF;
+			productRefGroup = 9BF73BDA1C46D8DB0045B2BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BF73BD81C46D8DB0045B2BF /* Ghostie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BF73BD71C46D8DB0045B2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B97DD491C4827C900D8DC47 /* Main.storyboard in Resources */,
+				9B97DD481C4827C900D8DC47 /* Assets.xcassets in Resources */,
+				9B97DD4A1C4827C900D8DC47 /* Ghostie.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BF73BD51C46D8DB0045B2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B97DD471C4827C900D8DC47 /* AppDelegate.swift in Sources */,
+				9B97DD4D1C4827C900D8DC47 /* GhostieViewController.swift in Sources */,
+				9B97DD4C1C4827C900D8DC47 /* GhostieImageView.swift in Sources */,
+				9B97DD4B1C4827C900D8DC47 /* GhostieDocument.swift in Sources */,
+				9B97DD4E1C4827C900D8DC47 /* GhostieWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B97DD3F1C4827C900D8DC47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B97DD401C4827C900D8DC47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BF73BE81C46D8DB0045B2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BF73BE91C46D8DB0045B2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9BF73BEB1C46D8DB0045B2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Ghostie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.SoftwareDad.Ghostie;
+				PRODUCT_NAME = Ghostie;
+			};
+			name = Debug;
+		};
+		9BF73BEC1C46D8DB0045B2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Ghostie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.SoftwareDad.Ghostie;
+				PRODUCT_NAME = Ghostie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BF73BD41C46D8DB0045B2BF /* Build configuration list for PBXProject "Ghostie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF73BE81C46D8DB0045B2BF /* Debug */,
+				9BF73BE91C46D8DB0045B2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF73BEA1C46D8DB0045B2BF /* Build configuration list for PBXNativeTarget "Ghostie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF73BEB1C46D8DB0045B2BF /* Debug */,
+				9BF73BEC1C46D8DB0045B2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BF73BD11C46D8DB0045B2BF /* Project object */;
+}
